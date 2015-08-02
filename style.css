@@ -1,0 +1,33 @@
+body {
+  color: #afafaf;
+}
+.cal {
+  display:inline-block;
+  width:800px;
+  height:100px;
+}
+
+.cal span {
+  /*position:none;*/
+  width:50px;
+  height: 20px;
+  background-color: rgba(255, 255, 0, 0.3);
+  /*position: absolute;*/
+  transition: all 2s ease 0s;
+  top: 0; /* start out at position 0 */
+}
+
+.move span {
+  position: absolute;
+}
+.fix span {
+  display: inline-block;
+}
+span.expensive {
+  background-color: rgba(255, 0, 0, 0.3);
+}
+
+span.cheap {
+  background-color: rgba(0, 255, 0, 0.6);
+}
+
